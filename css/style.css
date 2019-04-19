@@ -56,11 +56,22 @@
 .titleMessage .heading .sub {
 	font-size: 23px;
 }
-
-
-
-
-
-
 /* -- END MAIN SECTION --*/
+
+/* -- ABOUT SECTION --*/
+.section {
+	padding: 100px 0;
+}
+
+.aboutImage {
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
 
