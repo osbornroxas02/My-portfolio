@@ -1,3 +1,11 @@
+ body {
+ 	font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+ }
+
+
  /* -- MAIN SECTION --*/
 
  .overlay {
@@ -31,7 +39,7 @@
 	background-image: url(../img/icons/next.png);
 }
 
-/* Main Center Text */
+/* Center Text */
 .titleMessage {
 	position: absolute;
 	width: 100%;
@@ -55,18 +63,27 @@
 
 .titleMessage .heading .sub {
 	font-size: 23px;
-}
-/* -- END MAIN SECTION --*/
+}/* -- END MAIN SECTION --*/
+
 
 /* -- ABOUT SECTION --*/
+
 .section {
 	padding: 100px 0;
 }
 
 .aboutImage {
 	max-width: 100%;
-}
+}/* -- END ABOUT SECTION --*/
 
+
+/* -- SKILL SECTION --*/
+
+.skillsSection {
+	background-color: #74b9ff; 
+	color: #fff;
+}
+/*-- END SKILL SECTION --*/
 
 
 
