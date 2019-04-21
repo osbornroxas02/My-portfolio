@@ -14,8 +14,26 @@ $(document).ready(function() {
 		loop: true,
 		startDelay: 1000,
 		showCursor: false,
+	});/*-- END MAIN SECTION --*/
+
+	/*-- SKILLS SECTION --*/
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    nav:true,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:3
+	        },
+	        1000:{
+	            items:5
+	        }
+	    }
 	});
 
 });
-/*-- END MAIN SECTION --*/
+
 
