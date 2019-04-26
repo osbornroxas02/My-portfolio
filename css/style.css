@@ -87,6 +87,9 @@
 
 
 /* -- SKILL SECTION --*/
+.owl-carousel {
+	padding-top: 10px;
+}  
 
 .skillsSection,
 .contactSection {
