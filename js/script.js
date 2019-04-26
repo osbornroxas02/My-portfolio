@@ -6,6 +6,16 @@ $(window).on("load", function() {
 		$(".loader").fadeOut(900);
 	});
 
+	/*moved here fixed portfolio overlaping bug*/
+	$(".items").isotope({
+		filter: '*',
+		animationOptions: {
+			duration: 1500,
+			easing: 'linear',
+			queue: false
+		}
+	});
+
 })
 /*-- END LOADER --*/
 
@@ -89,15 +99,8 @@ $(document).ready(function() {
 
 	$("[data-fancybox]").fancybox();
 
-	$(".items").isotope({
-		filter: '*',
-		animationOptions: {
-			duration: 1500,
-			easing: 'linear',
-			queue: false
-		}
-	})
-
+	/*isotop moved to Loader Section*/
+	
 	$("#filters a").click(function() {
 
 		$("#filters .current").removeClass("current");
