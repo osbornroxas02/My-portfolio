@@ -1,3 +1,15 @@
+/*-- LOADER SECTION --*/
+$(window).on("load", function() {
+
+	/*icon fades before background*/
+	$(".loader .inner").fadeOut(850, function(){
+		$(".loader").fadeOut(900);
+	});
+
+})
+/*-- END LOADER --*/
+
+
 /* -- MAIN SECTION --*/
 $(document).ready(function() {
 
@@ -60,6 +72,7 @@ $(document).ready(function() {
 		/*-- END SKILLS SECTION --*/
 
 
+		/*-- PORTFOLIO SECTION --*/
 		if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
 
 				$(".counter").each(function() {
@@ -104,8 +117,10 @@ $(document).ready(function() {
 		return false;
 
 	});
+	/*-- END PORTFOLIO SECTION --*/
 
 
+	/*-- NAVIGATION SECTION --*/
 	$("#navigation li a").click(function(e) {
 		e.preventDefault();
 
@@ -133,7 +148,7 @@ $(document).ready(function() {
 		}
 
 	}
-
+	/*-- END NAVIGATION SECTION --*/
 
 
 });
