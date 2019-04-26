@@ -5,7 +5,6 @@ $(document).ready(function() {
 		animation: 'fade',
 		play: 5000,
 		pagination: false // Removes ooo
-
 	});
 
 	var typed = new Typed(".typed", {
@@ -14,7 +13,8 @@ $(document).ready(function() {
 		loop: true,
 		startDelay: 1000,
 		showCursor: false,
-	});/*-- END MAIN SECTION --*/
+	});
+	/*-- END MAIN SECTION --*/
 
 	/*-- SKILLS SECTION --*/
 	$('.owl-carousel').owlCarousel({
@@ -34,6 +34,7 @@ $(document).ready(function() {
 	            items:4
 	        }
 	    }
+
 	});
 
 	var skillsTopOffset = $(".skillsSection").offset().top;
@@ -47,7 +48,7 @@ $(document).ready(function() {
 		         easing: 'easeInOut',
 		         barColor: '#fff',
 		         trackColor: '#74b9ff', /*instead of false*/
-		         scaelColor: 'false',
+		         scaleColor: '#74b9ff', /*instead of false*/
 		         lineWidth: 4,
 		         size: 152,
 		         onStep: function(from, to, percent) {
@@ -55,7 +56,8 @@ $(document).ready(function() {
 	         	}
    		 	});
 
-		} /*-- END SKILLS SECTION --*/
+		} 
+		/*-- END SKILLS SECTION --*/
 
 
 		if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
