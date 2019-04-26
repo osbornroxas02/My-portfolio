@@ -87,9 +87,6 @@
 
 
 /* -- SKILL SECTION --*/
-.owl-carousel {
-	padding-top: 10px;
-}  
 
 .skillsSection,
 .contactSection {
@@ -100,6 +97,8 @@
 .skill {
 	text-align: center;
 	margin-left: 10px;
+  
+  	/*margin-top: 20px; if space is needed*/
 }
 
 .chart {
