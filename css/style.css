@@ -421,7 +421,11 @@
 }
 /*-- END LOADER SECTION --*/
 
+.resizeImage {
+	height: 270px;
+    border-radius: 45px;
 
+}
 
 
 
