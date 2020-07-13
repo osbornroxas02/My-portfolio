@@ -305,7 +305,8 @@ body {
     position: absolute;
     left: 0px;
     top: 0px;
-    opacity: 0;
+	opacity: 0;
+	border-radius: 10px;
 
     -webkit-transition: all 0.2s linear, 1s; /*chrome browser*/
     -moz-transition: all 0.2s linear, 1s; /*firefox*/
